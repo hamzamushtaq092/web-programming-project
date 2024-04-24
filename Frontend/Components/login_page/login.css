@@ -1,0 +1,120 @@
+body {
+  background-color: #18191a;
+  color: #fff;
+  margin-top: 50px;
+  font-family: system_ui, _apple_system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans_serif;
+}
+
+.signIn_container {
+  width: 400px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color:  #3a3a3a;
+  transition: all 0.4s ease-out ;
+}
+
+.signIn_container h1 {
+  text-align: center;
+}
+
+.inputs_container_input {
+  margin-bottom: 10px;
+}
+
+.inputs_container_input label {
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+.inputs_container_input input {
+  width: 95%; 
+  padding: 10px;
+  border: none;
+  border-radius: 5px; 
+}
+
+.signIn_container-forgetpass_container {
+  text-align: end;
+}
+
+.signIn_container-forgetpass_container span {
+  color: #ff1707;
+  cursor: pointer;
+}
+
+.signIn_container-login_btn {
+  text-align: center;
+}
+
+.signIn_container-login_btn-btn {
+  width: 400px;
+  padding: 10px ;
+  background-color: #6a5cfb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.signIn_container-login_btn-btn:hover {
+  
+  background-color: #18191a;
+  width: 400px;
+  padding: 10px ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+.below_signup {
+  text-align: center;
+}
+.line{
+  margin: 10%;
+  width: 80%;
+  background-color: #8a8a8a;
+  height: 1px;
+  text-align: center;
+}
+.icons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icons svg {
+  margin: 0 5px;
+  font-size: 24px;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icons svg:hover {
+  color: #0056b3;
+}
+
+.already_login {
+  text-align: center;
+}
+
+.already_login span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.already_login p:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max_width: 430px) {
+  .signIn_container {
+    width: 100%;
+    background-color: #007bff;
+  }
+}

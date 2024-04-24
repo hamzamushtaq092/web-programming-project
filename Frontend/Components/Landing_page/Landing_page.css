@@ -1,0 +1,48 @@
+.landing_page_left{
+    width: 50%;
+}
+.landing_page_right{
+    width: 50%;
+}
+
+.landing_page_logo{
+
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.landing_page_left_heading_1{
+    font-size: 20px;
+}
+
+.landing_page_left_heading_2{
+    font-size: 30px;
+}
+
+.landing_page_left_about{
+    margin-top: 30px;
+}
+
+#button{
+    margin-top: 30px;
+    width: 100px;
+}
+
+button{
+    width: 100px;
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: none;
+    border-radius: 10px;
+    border: none;
+    height: auto;
+    padding: 7px;
+    transition: background-color 0.3s ease;
+    
+}
+
+button:hover{
+    width: 100px;
+    background-color: rgb(78, 78, 235);
+    color: #fff;
+}

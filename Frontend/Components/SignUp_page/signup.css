@@ -1,0 +1,96 @@
+body{
+  background-color: #18191a;
+  color: #fff;
+  margin-top: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+.signup_container {
+
+  width: 400px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #3a3a3a;
+}
+
+.signup_container h1 {
+  text-align: center; 
+}
+
+.input_container {
+  margin-bottom: 20px;
+  background-color: #3a3a3a;
+}
+
+.signup_container-input{
+  margin-bottom: 10px;
+}
+
+.signup_container-input label {
+  display: block;
+  margin-bottom: 5px; 
+}
+
+.signup_container-input input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup_container-terms_condition{
+  font-size: 13px;
+}
+
+.signup_container-login_btn {
+  text-align: center;
+}
+
+.signup_container-login_btn-btn {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #6a5cfb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup_container-login_btn-btn:hover {
+  background-color: #18191a;
+  width: 100%;
+  padding: 10px 20px; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup_container-icons{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.signup_container-icons svg {
+  margin: 0 5px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.signup_container-icons svg:hover {
+  color: #007bff;
+}
+
+.signup_container-already_login {
+  text-align: center;
+}
+
+.signup_container-already_login span{
+  color: #007bff;
+  cursor: pointer;
+}
+
+

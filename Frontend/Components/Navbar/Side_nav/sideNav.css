@@ -1,0 +1,64 @@
+/* sideNav.css */
+.Left_Navbar-header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    background-color: rgb(249, 249, 249);
+    overflow-y: scroll; /* Add scrollbar if content exceeds height */
+    color: black;
+  }
+  
+  .Left_Navbar-header-container::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+  }
+  
+  .Left_Navbar-header {
+    padding: 20px;
+    background-color:  #6a5cfb;
+    color: white;
+    font-weight: 500;
+  }
+
+  
+  .Left_Navbar-body-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  .Left_Navbar-body-container ul li {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    padding-left:15px ;
+    text-align: left;
+    transition: background-color 0.3s ease;
+   
+   
+  }
+  
+  .Left_Navbar-body-container ul li:hover {
+   
+    background-color: #6a5cfb;
+    
+  }
+
+ .Nested-options{
+    margin-left:20px ;
+    
+  }
+
+
+  .Left_Navbar-body-container .Nested-options {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+  
+  .Left_Navbar-body-container .Nested-options.show {
+    max-height: 100px; /* Adjust this value according to your content */
+    
+  }
+  
